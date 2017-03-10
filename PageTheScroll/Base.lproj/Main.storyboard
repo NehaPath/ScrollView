@@ -35,12 +35,16 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N83-Hv-L02">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="GEM-4q-wqE"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cEM-pe-g3h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="3L6-7W-IRD"/>
+                            <constraint firstItem="N83-Hv-L02" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CWp-F2-unU"/>
                             <constraint firstItem="SPH-71-rIs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="G8s-14-FdT"/>
                             <constraint firstItem="N83-Hv-L02" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HIY-Yo-EOp"/>
                             <constraint firstAttribute="trailing" secondItem="pUX-MP-olD" secondAttribute="trailing" id="IpH-oO-qla"/>
@@ -49,9 +53,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SPH-71-rIs" secondAttribute="bottom" id="Qaj-4t-mns"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pUX-MP-olD" secondAttribute="bottom" id="XYo-Rx-EVH"/>
                             <constraint firstAttribute="trailing" secondItem="SPH-71-rIs" secondAttribute="trailing" id="gvF-6H-bKG"/>
-                            <constraint firstAttribute="trailing" secondItem="N83-Hv-L02" secondAttribute="trailing" id="jM0-R4-hKh"/>
                             <constraint firstItem="pUX-MP-olD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k47-Iy-950"/>
-                            <constraint firstItem="N83-Hv-L02" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kWA-AI-BBL"/>
                             <constraint firstItem="cEM-pe-g3h" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="o3n-jy-e2j"/>
                         </constraints>
                     </view>
